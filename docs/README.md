@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: /vue-logo.png
-heroText: blog-demo
+heroImage: 
+heroText: 魔咕歪的技能书
 tagline: 博客示例
 actionText: 快速上手 →
 actionLink: /
