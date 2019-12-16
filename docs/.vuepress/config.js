@@ -6,21 +6,26 @@ module.exports = {
         // 你的GitHub仓库，请正确填写
         repo: 'https://github.com/moguwaia/moguwaia.github.io',
         // 自定义仓库链接文字。
-        repoLabel: 'My GitHub',
+        repoLabel: '关于我',
+        //导航栏
         nav: [
             { text: '首页', link: '/' },
-            { text: 'FirstBlog', link: '/blog/FirstBlog.md' }
+            { text: '学习笔记', link: '/blog/Home.md' }
         ],
+        //边栏
         sidebar:[
-            ['/home','首页'],
-            ['/blog/FirstBlog.md','我的第一篇博客'],
-            ['/','JS基础'],
-            ['/','Vue'],
-            ['/','Angular'],
+            ['/blog/Home.md','首页'],
+            ['','WEB前端技术'],
+            ['','WEB前端核心技术'],
+            ['','前端框架'],
             ['/','Java基础'],
             ['/','Java进阶'],
+            ['/','Mybatis框架'],
+            ['/','Spring框架'],
+            ['/','SpringMVC框架'],
             ['/','数据库'],
-            ['/','']
+            ['/','JDBC技术'],
+            ['/','分布式框架']
         ]
     }
 }
