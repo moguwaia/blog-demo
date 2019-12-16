@@ -1,5 +1,7 @@
+const basePath = 'post'
+
 module.exports = {
-    base: '/moguwaia.github.io/',
+    base: "/moguwaia.github.io/",
     title: '魔咕歪的技能书',
     description: 'Vuepress blog demo',
     dest:'public',
