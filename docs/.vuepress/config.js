@@ -2,6 +2,7 @@ module.exports = {
     base: '/moguwaia.github.io/',
     title: '魔咕歪的技能书',
     description: 'Vuepress blog demo',
+    dest:'public',
     themeConfig: {
         // 你的GitHub仓库，请正确填写
         repo: 'https://github.com/moguwaia/moguwaia.github.io',
