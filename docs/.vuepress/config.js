@@ -1,13 +1,13 @@
 const basePath = 'post'
 
 module.exports = {
-    base: "/moguwaia.github.io/",
+    base: "/blog-demo/",
     title: '魔咕歪的技能书',
     description: 'Vuepress blog demo',
     dest:'public',
     themeConfig: {
         // 你的GitHub仓库，请正确填写
-        repo: 'https://github.com/moguwaia/moguwaia.github.io',
+        repo: 'https://github.com/moguwaia/blog-demo',
         // 自定义仓库链接文字。
         repoLabel: '关于我',
         //导航栏
